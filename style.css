@@ -25,14 +25,12 @@ h1 {
     padding: 10px 10px;
 }
 .mySlides{
-    padding-top: 10px;
+  border-radius: 25%;
+  margin-left: -25px;
+    padding-top: 5px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 390px;
-    height: 250px;
-    float: left;
-    padding-top: 2px;
+    height: 300px;
     padding-bottom: 10px;
 }
 
@@ -44,20 +42,40 @@ h1 {
         margin-right: auto;
         width: 400px;
         height: 250px;
-        float: left;
-        padding-right: 10px;
-        
+        margin-top: 20px;
+}
+.titleOfBlog{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-left: -15px;
+  margin-bottom: 0px;
 }
 
+.titleOfBlogTwo{
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  margin-top: 15px;
+ margin-right: 20px;
+  margin-bottom: 0px;
+}
+p{
+  font-size: 12px;
+  margin-top: 0px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color:whitesmoke;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .navbar a {
     float: left;
     font-size: 20px;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -66,15 +84,26 @@ h1 {
     float: left;
     overflow: hidden;
   }
-  .dropdown .dropbtn {
+
+  .dropdown {
     font-size: 20px;
     border: none;
     outline: none;
-    color: white;
+    color: black;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; 
     margin: 0; 
+
+  }
+   .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: inherit;
+    font-family: inherit; 
+    margin-right: 60px; 
   }    
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color:lightcoral;
@@ -104,13 +133,14 @@ h1 {
 .box {
 width: 100px;
 height: 100px;
-flex: 1;
+flex: 2;
 padding: 10px 10px;
 }
 .container{
     display: flex
 
 }
+
 .column {
     float: left;
     width: 33.33%;
@@ -127,8 +157,8 @@ h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     text-align: center; 
-    background-color: #333; 
-    color: ivory;
+    background-color: whitesmoke; 
+    color: black;
     margin: auto;
     margin-top: 5px;
 }
@@ -140,17 +170,16 @@ p{
         margin-left: auto;
         margin-right: auto;
         width: 400px;
-        height: 250px;
-        float: left;
+        height: 320px;
         padding-right: 10px;
-        padding-top: 10px;
+        padding-top: 30px;
         padding-bottom: 6px;
 }
 
 .heading{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-    background-color: lightcoral;
+    background-color: whitesmoke;
 }
 .paragraph{
     font-size: 15px;
